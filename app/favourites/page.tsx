@@ -9,7 +9,7 @@ export default function FavoritesPage() {
   const { favorites } = useFavorites();
 
   return (
-    <main className="container mx-auto min-h-screen p-4">
+    <main className="container mx-auto  min-h-screen p-4  sm:mx-6 md:mx-10 lg:mx-14 xl:mx-20">
       <h1 className="text-2xl font-bold">Your Favorite Movies ❤️</h1>
 
       {favorites.length === 0 ? (

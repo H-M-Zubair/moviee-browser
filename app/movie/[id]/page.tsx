@@ -12,7 +12,7 @@ export default async function MovieDetails({
   if (!movie) return <p className="text-red-500">Movie not found.</p>;
 
   return (
-    <div>
+    <div className="mx-4 sm:mx-6 md:mx-10 lg:mx-14 xl:mx-20">
       <Movie movie={movie} />
     </div>
   );
